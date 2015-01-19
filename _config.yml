@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       NoUniversity
+email:       alvajindia@gmail.com
+author:      Abdul Vajid
+description: "Official Blog for No University"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://nouniversity.github.io"
 
 # Google analytics
 google_analytics:
@@ -33,7 +33,7 @@ flattr_button:
 markdown:     redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
+permalink:    /posts/:title
 paginate:     3
 sass:
   compressed: true
